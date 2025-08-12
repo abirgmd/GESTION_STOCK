@@ -1,0 +1,5 @@
+<?php
+    session_start();
+    session_destroy();
+    header("Location: http://localhost/Projet_Web_TP-main/");
+?>
